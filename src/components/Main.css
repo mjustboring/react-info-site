@@ -1,0 +1,29 @@
+ul {
+  list-style: none;
+  color: var(--color-text);
+}
+
+ul li {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+ul li::before {
+  color: #6DF;
+  content: "\2022";
+  width: 1rem;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+main > h2 {
+  color: var(--color-text);
+}
+
+main {
+  height: 82%;
+  width: 100%;
+  padding: 2rem;
+  transform: translateZ(5rem);
+}

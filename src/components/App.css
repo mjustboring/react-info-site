@@ -1,0 +1,18 @@
+
+.app {
+  width: min(90vh, 90vw);
+  aspect-ratio: 1;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  background: var(--color-secondary);
+  position: relative;
+}
+
+.app > img {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1;
+  top: 0;
+  left: 50%;
+  filter: invert(var(--invert));
+}
